@@ -1,0 +1,116 @@
+hr.vertical {
+    border: 0;
+    margin: 0;
+    border-left: 1px solid grey;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+img{
+    position: absolute;
+    top: 50%;
+    height: 250px;
+    width: auto;
+    left: 52%;
+    transform: translateY(-50%);
+    z-index: 2;  
+}
+p{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%);
+    z-index: 2;  
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+    cursor: url(https://cdn.custom-cursor.com/db/6882/32/lifestyle-origami-bird-cursor.png), auto;
+}
+/* .hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/38094b95235473.5e92ecc4409a8.gif);
+    background-position: center;
+    background-size: cover; 
+} */
+/* .color-overlay{
+    height: 86%;
+    width: 100%;
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    opacity: .7;
+} */
+nav{ 
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo-icon{
+    display: flex;
+    align-items: center;
+    padding-left: 4.5%;
+}
+.logo{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    background-color: rgb(140, 0, 255);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-image: linear-gradient(120deg, #eee, rgb(140, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    letter-spacing: 1px;
+    cursor: url(https://cdn.custom-cursor.com/db/6881/32/lifestyle-origami-bird-pointer.png), auto;
+}
+span{
+    color: rgb(140, 0, 255);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 35px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}    
+nav ul li a:hover{
+    color: rgb(140, 0, 255);
+    transition: .4s;
+    cursor: url(https://cdn.custom-cursor.com/db/6881/32/lifestyle-origami-bird-pointer.png), auto;
+}
+.btn{
+    background-color: rgb(140, 0, 255);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    cursor: url(cursor-2.png), auto;
+    transform: scale(1.2);
+}
+body{
+    background: black;
+}
